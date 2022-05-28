@@ -12,6 +12,7 @@ module.exports = {
     'aria-role': require('./rules/aria-role'),
     'aria-unsupported-elements': require('./rules/aria-unsupported-elements'),
     'autocomplete-valid': require('./rules/autocomplete-valid'),
+    'button-type': require('./rules/button-type'),
     'click-events-have-key-events': require('./rules/click-events-have-key-events'),
     'control-has-associated-label': require('./rules/control-has-associated-label'),
     'heading-has-content': require('./rules/heading-has-content'),
@@ -59,6 +60,7 @@ module.exports = {
         'jsx-a11y/aria-role': 'error',
         'jsx-a11y/aria-unsupported-elements': 'error',
         'jsx-a11y/autocomplete-valid': 'error',
+        'jsx-a11y/button-type': 'error',
         'jsx-a11y/click-events-have-key-events': 'error',
         'jsx-a11y/control-has-associated-label': ['off',
           {
